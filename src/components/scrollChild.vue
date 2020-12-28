@@ -50,7 +50,7 @@ export default defineComponent({
     const yPos = ref(0)
     const _easeSpeed = 'ease-in-out'
     const _linerSpeed = 'cubic-bezier(0.44, 0.44, 0.61, 0.63)'
-    let _timer: NodeJS.Timeout
+    let _timer: number
     let _top = props.data.length * props.height + props.showLine * props.height - props.showLine * props.height
 
     const trans = computed(() => {
