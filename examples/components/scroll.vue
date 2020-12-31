@@ -1,6 +1,5 @@
 <template>
   <div
-    class="outer"
     :style="outerHeight"
     @mouseenter="handleMouEn"
     @mouseleave="handleMouOut"
@@ -35,7 +34,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed } from 'vue'
-import scrollChild from '@/components/scrollChild.vue'
+import scrollChild from './scrollChild.vue'
 
 export default defineComponent({
   name: 'Scroll',
@@ -72,7 +71,7 @@ export default defineComponent({
     const isHover = ref(false)
 
     const outerHeight = computed(() => {
-      return { height: `${props.showLine * props.height}px` }
+      return { height: `${props.showLine * props.height}px`, overflow: 'hidden' }
     })
 
     const handleMouEn = () => {
@@ -87,8 +86,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped lang="stylus">
-.outer
-  overflow hidden
-</style>

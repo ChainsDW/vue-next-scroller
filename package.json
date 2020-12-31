@@ -1,14 +1,26 @@
 {
   "name": "vue-scroller-next",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.5",
+  "private": false,
+  "license": "MIT",
+  "author": "wuyidi 751009167@qq.com",
+  "main": "lib/vue-scroller-next.umd.js",
+  "typings": "types/index.d.ts",
+  "description": "A scroller for vue 3",
+  "keywords": ["vue3", "循环", "scroll", "滚动"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChainsDW/vue-next-scroller"
+  },
+  "prepublishOnly": "yarn lib",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-scroller-next --dest lib src/index.ts"
   },
-  "dependencies": {
-    "vue": "^3.0.0"
+  "peerDependencies": {
+    "vue": ">=3.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",

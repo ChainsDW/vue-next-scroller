@@ -107,7 +107,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped lang="stylus">
-
-</style>
