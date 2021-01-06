@@ -38,6 +38,7 @@ unit: `ms`, Stay after scrolling
 The number of rows displayed
 
 ## Example
+[DEMO](https://chainsdw.github.io/vue-next-scroller/)
 ```vue
 <template>
   <scroll :height="20" :data="cols" :ease="false" :speed="500" :hold-up="1000" :show-line="2">
