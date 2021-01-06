@@ -30,6 +30,7 @@
     "examples/**/*.ts",
     "examples/**/*.tsx",
     "examples/**/*.vue",
+    "examples/**/*.md",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],

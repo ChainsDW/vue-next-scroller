@@ -7,7 +7,12 @@
   "main": "lib/vue-scroller-next.umd.js",
   "typings": "types/index.d.ts",
   "description": "A scroller for vue 3",
-  "keywords": ["vue3", "循环", "scroll", "滚动"],
+  "keywords": [
+    "vue3",
+    "循环",
+    "scroll",
+    "滚动"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChainsDW/vue-next-scroller"
@@ -23,6 +28,7 @@
     "vue": ">=3.0.0"
   },
   "devDependencies": {
+    "vue": "^3.0.5",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -39,6 +45,7 @@
     "eslint-plugin-vue": "^7.0.0-0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "vue-markdown-loader": "^2.4.1"
   }
 }
