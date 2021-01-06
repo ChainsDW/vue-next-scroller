@@ -1,0 +1,51 @@
+{
+  "name": "vue-scroller-next",
+  "version": "0.1.5",
+  "private": false,
+  "license": "MIT",
+  "author": "wuyidi 751009167@qq.com",
+  "main": "lib/vue-scroller-next.umd.js",
+  "typings": "types/index.d.ts",
+  "description": "A scroller for vue 3",
+  "keywords": [
+    "vue3",
+    "循环",
+    "scroll",
+    "滚动"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChainsDW/vue-next-scroller"
+  },
+  "prepublishOnly": "yarn lib",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-scroller-next --dest lib src/index.ts"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "vue": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "typescript": "~3.9.3",
+    "vue-markdown-loader": "^2.4.1"
+  }
+}
