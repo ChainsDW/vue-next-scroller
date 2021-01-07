@@ -47,7 +47,7 @@ The number of rows displayed
 </template>
 
 <script lang="ts">
-import scroll from './components/scroll.vue'
+import scroll from 'vue-scroller-next'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
